@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://https://unclefishman.github.io</id>
+    <id>https://unclefishman.github.io</id>
     <title>渔夫叔叔</title>
-    <updated>2020-02-16T08:27:59.042Z</updated>
+    <updated>2020-02-16T10:41:47.911Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://https://unclefishman.github.io"/>
-    <link rel="self" href="https://https://unclefishman.github.io/atom.xml"/>
+    <link rel="alternate" href="https://unclefishman.github.io"/>
+    <link rel="self" href="https://unclefishman.github.io/atom.xml"/>
     <subtitle>渔夫叔叔的闲言碎语</subtitle>
-    <logo>https://https://unclefishman.github.io/images/avatar.png</logo>
-    <icon>https://https://unclefishman.github.io/favicon.ico</icon>
+    <logo>https://unclefishman.github.io/images/avatar.png</logo>
+    <icon>https://unclefishman.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 渔夫叔叔</rights>
     <entry>
         <title type="html"><![CDATA[测试文章]]></title>
-        <id>https://https://unclefishman.github.io/post/ce-shi-wen-zhang/</id>
-        <link href="https://https://unclefishman.github.io/post/ce-shi-wen-zhang/">
+        <id>https://unclefishman.github.io/post/ce-shi-wen-zhang</id>
+        <link href="https://unclefishman.github.io/post/ce-shi-wen-zhang">
         </link>
         <updated>2020-02-16T08:24:42.000Z</updated>
         <content type="html"><![CDATA[<p>测试</p>
@@ -21,8 +21,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://https://unclefishman.github.io/post/hello-gridea/</id>
-        <link href="https://https://unclefishman.github.io/post/hello-gridea/">
+        <id>https://unclefishman.github.io/post/hello-gridea</id>
+        <link href="https://unclefishman.github.io/post/hello-gridea">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
