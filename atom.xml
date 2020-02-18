@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://unclefishman.github.io</id>
     <title>渔夫叔叔</title>
-    <updated>2020-02-16T10:41:47.911Z</updated>
+    <updated>2020-02-18T09:49:33.669Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://unclefishman.github.io"/>
     <link rel="self" href="https://unclefishman.github.io/atom.xml"/>
@@ -11,44 +11,30 @@
     <icon>https://unclefishman.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 渔夫叔叔</rights>
     <entry>
-        <title type="html"><![CDATA[测试文章]]></title>
+        <title type="html"><![CDATA[First Blog]]></title>
         <id>https://unclefishman.github.io/post/ce-shi-wen-zhang</id>
         <link href="https://unclefishman.github.io/post/ce-shi-wen-zhang">
         </link>
         <updated>2020-02-16T08:24:42.000Z</updated>
-        <content type="html"><![CDATA[<p>测试</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://unclefishman.github.io/post/hello-gridea</id>
-        <link href="https://unclefishman.github.io/post/hello-gridea">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+        <content type="html"><![CDATA[<p>2019年是最累的一年，2020年一开始便注定是不平凡的一年，新型肺炎席卷了祖国大地。隔离是大部分人的日常，而我现在已经自我隔离了20天。在这20天的时间里，有规律的时间作息和工作让我发现，不同特定的上班场合，我依然能很好的做到自律。工作不再是朝九晚五，有条不紊，而是和生活融合，互补。</p>
+<p>我第一份工作，工作了三年。在工作的第三个年头，我辞职并参加培训学习了编程。程序员是我人生的又一个标签。而现在，是我成为程序员的第三个年头，又是一个三年。然而第三年比以往的时间都过得疲累，让人厌倦。头发也越发的后移。</p>
+<p>庞大的工程量，薄弱的经验，不断减少的人手不断的摧毁着我对编程的热情。我想，我还是喜欢编程的。编程改变着我的思维习惯。精确的表达，合理的规划，得失和目标的权衡这些都是我以前工作生活中不曾注意和思考的。最求完美，欠缺的经验，进度的追赶也让我学习到如何权衡利弊。编程改变着我，或好或坏。</p>
+<p>但是，完成一个完善的系统谈何容易。也许，可以做出一点改变。不要让能力的不足和现实限制摧毁你的想象。</p>
+<p>我还不知道我能够做什么，至少我可以先做一点我以前一直想做却没有做的事情。会写一些博客，做一点教学视频。改变不是朝夕之间就能发生，罗马也不是一日建成。所以写下这篇博客，做为一个开始。看一看，这在2020年会发酵什么变化来。</p>
+<h1 id="超级想做的事">超级想做的事</h1>
+<h2 id="读书笔记">读书笔记</h2>
+<p>朋友家的小孩有一个戒尺，上面刻着岳麓书院学规。闲来无事就看了看，发现上面写的正确又让人惊讶。其中，读书必须过笔让我映像深刻。现在的我已经很久没有拿过笔了，但是博客也许是一个殊途同归的办法。</p>
+<p>为什么要读书呢？就像多数人说的那样，阅读可能会在潜移默化中改变人。但是，还有另外一个原因就是，我发现作为程序员，你需要阅读的内容太多了。程序就是文档，只是使用的语言和语法比较特别的文档而已。世界上的文章千千万，同样程序的文档也是千千万。而且，同一个问题，不同的人有不同的解决方案。所以，你要阅读并且理解。<br>
+阅读就要过笔，所以会挑一些比较好的书，做读书笔记并写成博客。</p>
+<p>有些书上讲的并不是万年不变的真理，甚至几年的时间就会过时。编程方面的书尤为如此。技术的迭代更新，技术栈的不断演化。有时候你发现，你好不容易弄明白的已经变成过时的产物。这一点让人变得沮丧和恐慌。所以我会试着去整理一些不容易被淘汰的东西，这些东西枯燥但是确是我们成长起来的基石。</p>
+<h2 id="教程">教程</h2>
+<p>编程的教程不少，但是我认为优秀的教程和文档其实不多。我认为，学习任何一样东西都应该分为三个阶段：快速入门，灵活运用，了解透彻。</p>
+<p>快速入门就是回答，这是什么，我能够用它做什么事。有些时候，我看见一些语言的基础教程花了接近1个小时的时间来讲什么是变量及其基本数据类型，仔细的辨别他们之间的不同，比如占用的内存空间的大小。这些都让初学者昏昏欲睡，丧失信心。但不是说这不是好教程，而是说不适合完全没有一天编程经验的小白。</p>
+<p>当我们引用别人写好的模块的时候，我们完全可以把它当做一个黑盒来使用，虽然我们可以打开它。所以我们只需要用它来解决问题，我们所要思考的就是如何正确的使用它，并且当在发生异常的时候如何处理。我们大部分的时间和精力其实都会花费在这个阶段。灵活的运用需要练习和技巧，比如编写一个优秀的SQL。</p>
+<p>对你使用的工具透彻的了解，也是一个老司机的必须功课之一。比如，一个合格的老司机通过明白发动机的工作原理就知道如何在开车过程中保护自己的爱车，编程也是这样。其实，灵活运用和透彻了解应该交互进行，两者之间没有明确的界限。</p>
+<h2 id="开源">开源</h2>
+<p>开源一个模块或软件一直是我的梦想。</p>
+<p>对于开源我是充满期待，也许能够在全球最大的同性交友网站有一个不错的经历。😄</p>
 ]]></content>
     </entry>
 </feed>
