@@ -1,94 +1,106 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>First Blog | 渔夫叔叔</title>
-<link rel="shortcut icon" href="https://unclefishman.github.io/favicon.ico?v=1582019368876">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://unclefishman.github.io/favicon.ico?v=1592220606961">
 <link rel="stylesheet" href="https://unclefishman.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="First Blog | 渔夫叔叔 - Atom Feed" href="https://unclefishman.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
     <meta name="description" content="2019年是最累的一年，2020年一开始便注定是不平凡的一年，新型肺炎席卷了祖国大地。隔离是大部分人的日常，而我现在已经自我隔离了20天。在这20天的时间里，有规律的时间作息和工作让我发现，不同特定的上班场合，我依然能很好的做到自律。工作不..." />
     <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://unclefishman.github.io">
-  <img class="avatar" src="https://unclefishman.github.io/images/avatar.png?v=1582019368876" alt="">
-  </a>
-  <h1 class="site-title">
-    渔夫叔叔
-  </h1>
-  <p class="site-description">
-    渔夫叔叔的闲言碎语
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://unclefishman.github.io">
+        <img src="https://unclefishman.github.io/images/avatar.png?v=1592220606961" class="site-logo">
+        <h1 class="site-title">渔夫叔叔</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="/" class="menu">
-          首页
-        </a>
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
       
-    
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
       
-        <a href="/archives" class="menu">
-          归档
-        </a>
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
       
-    
+        
+          <a href="https://unclefishman.github.io" class="site-nav">
+            关于
+          </a>
+        
       
-        <a href="/tags" class="menu">
-          标签
-        </a>
+        
+          <a href="/tags/code-learn" class="site-nav">
+            编程学习
+          </a>
+        
       
-    
-      
-        <a href="https://unclefishman.github.io" class="menu">
-          关于
-        </a>
-      
-    
+    </div>
   </div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
+      
+    </div>
+    <div class="site-description">
+      渔夫叔叔的闲言碎语
+    </div>
+    <div class="site-footer">
+       | <a class="rss" href="https://unclefishman.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              First Blog
-            </h2>
-            <div class="post-info">
-              <span>
-                2020-02-16
-              </span>
-              <span>
-                5 min read
-              </span>
-              
-            </div>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">First Blog</h2>
+            <div class="post-date">2020-02-16</div>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>2019年是最累的一年，2020年一开始便注定是不平凡的一年，新型肺炎席卷了祖国大地。隔离是大部分人的日常，而我现在已经自我隔离了20天。在这20天的时间里，有规律的时间作息和工作让我发现，不同特定的上班场合，我依然能很好的做到自律。工作不再是朝九晚五，有条不紊，而是和生活融合，互补。</p>
+            <div class="post-content" v-pre>
+              <p>2019年是最累的一年，2020年一开始便注定是不平凡的一年，新型肺炎席卷了祖国大地。隔离是大部分人的日常，而我现在已经自我隔离了20天。在这20天的时间里，有规律的时间作息和工作让我发现，不同特定的上班场合，我依然能很好的做到自律。工作不再是朝九晚五，有条不紊，而是和生活融合，互补。</p>
 <p>我第一份工作，工作了三年。在工作的第三个年头，我辞职并参加培训学习了编程。程序员是我人生的又一个标签。而现在，是我成为程序员的第三个年头，又是一个三年。然而第三年比以往的时间都过得疲累，让人厌倦。头发也越发的后移。</p>
 <p>庞大的工程量，薄弱的经验，不断减少的人手不断的摧毁着我对编程的热情。我想，我还是喜欢编程的。编程改变着我的思维习惯。精确的表达，合理的规划，得失和目标的权衡这些都是我以前工作生活中不曾注意和思考的。最求完美，欠缺的经验，进度的追赶也让我学习到如何权衡利弊。编程改变着我，或好或坏。</p>
 <p>但是，完成一个完善的系统谈何容易。也许，可以做出一点改变。不要让能力的不足和现实限制摧毁你的想象。</p>
@@ -108,76 +120,36 @@
 <p>开源一个模块或软件一直是我的梦想。</p>
 <p>对于开源我是充满期待，也许能够在全球最大的同性交友网站有一个不错的经历。😄</p>
 
-              </div>
-              <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li><a href="#%E8%B6%85%E7%BA%A7%E6%83%B3%E5%81%9A%E7%9A%84%E4%BA%8B">超级想做的事</a>
-<ul>
-<li><a href="#%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0">读书笔记</a></li>
-<li><a href="#%E6%95%99%E7%A8%8B">教程</a></li>
-<li><a href="#%E5%BC%80%E6%BA%90">开源</a></li>
-</ul>
-</li>
-</ul>
-
-              </div>
             </div>
-          </article>
+            
+            
+
+            
+
+          </div>
+
         </div>
-
-        
-
-        
-
-        <div class="site-footer">
-  
-  <a class="rss" href="https://unclefishman.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
       </div>
     </div>
 
-    <script>
-      hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+AOS.init();
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
+</script>
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+
+
+
+
   </body>
 </html>
